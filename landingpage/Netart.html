@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+
+
+
 <title>Bootstrap 4 Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,13 +38,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <head>
 <body>
-<nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
-<center><a href="index.html">Home</a>
-<a href="Glitchpage.html">Glitch</a>
-<a href="Memepage.html">Meme Mashup</a>
-<a href="Minecraftpage.html">Minecraft</a>
-<a href="3d.html">3D</a>
-<a href="Netart.html">Netart</a><center/>
+
+
+
+<ul> 
+<li><a class="nav-item"><a href="index.html">Home</a></li>
+<li><a class="nav-item"><a href="Glitchpage.html">Glitch</a></li>
+<li><a class="nav-item"><a href="Memepage.html">Meme Mashup</a></li>
+<li><a class="nav-item"><a href="Minecraftpage.html">Minecraft</a></li>
+<li><a class="nav-item"><a href="3d.html">3D</a></li>
+<li><a class="nav-item"><a href="Netart.html">Netart</a></li>
+</ul>
 </nav>
 
 <center><div class="container-fluid">
